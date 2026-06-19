@@ -14,7 +14,7 @@ services:
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./ddl:/ddl
+      - ./ddl:/docker-entrypoint-initdb.d
       - ./sql:/sql
 
     healthcheck:
@@ -64,6 +64,12 @@ services:
 
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:postgres@postgres:5432/mos
 
+      _PIP_ADDITIONAL_REQUIREMENTS: >
+        pandas
+        sqlalchemy
+        psycopg2-binary
+        openpyxl
+
     command: airflow webserver
 
     ports:
@@ -72,8 +78,8 @@ services:
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
-      - ./plugins:/opt/airflow/plugins
       - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
 
   airflow-scheduler:
     image: apache/airflow:2.10.0
@@ -89,13 +95,19 @@ services:
 
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:postgres@postgres:5432/mos
 
+      _PIP_ADDITIONAL_REQUIREMENTS: >
+        pandas
+        sqlalchemy
+        psycopg2-binary
+        openpyxl
+
     command: airflow scheduler
 
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
-      - ./plugins:/opt/airflow/plugins
       - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
 
 volumes:
   postgres_data:

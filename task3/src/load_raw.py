@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CLEANED = ROOT / "data" / "cleaned"
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:postgres@localhost:5432/mos"
+    "postgresql+psycopg2://postgres:postgres@postgres:5432/mos"
 )
 
 

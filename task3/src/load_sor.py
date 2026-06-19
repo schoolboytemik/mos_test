@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, text
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:postgres@localhost:5432/mos"
+    "postgresql+psycopg2://postgres:postgres@postgres:5432/mos"
 )
 
 queries = [
