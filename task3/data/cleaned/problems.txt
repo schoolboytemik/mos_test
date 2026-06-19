@@ -1,69 +1,177 @@
-orders: invalid date -> {'order_id': 1, 'customer_id': 380.0, 'product_id': 512, 'quantity': 3, 'unit_price': 256.02, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 67, 'customer_id': 486.0, 'product_id': 10, 'quantity': 3, 'unit_price': 441.82, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 113, 'customer_id': 622.0, 'product_id': 461, 'quantity': 2, 'unit_price': 167.37, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 140, 'customer_id': 465.0, 'product_id': 394, 'quantity': 1, 'unit_price': 142.45, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 147, 'customer_id': 244.0, 'product_id': 556, 'quantity': 3, 'unit_price': 51.91, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 191, 'customer_id': 741.0, 'product_id': 214, 'quantity': 1, 'unit_price': 250.44, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 202, 'customer_id': 133.0, 'product_id': 342, 'quantity': 1, 'unit_price': 403.18, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 210, 'customer_id': 436.0, 'product_id': 271, 'quantity': 3, 'unit_price': 234.86, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 233, 'customer_id': 485.0, 'product_id': 630, 'quantity': 2, 'unit_price': 494.65, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'completed'}
-orders: invalid date -> {'order_id': 270, 'customer_id': 406.0, 'product_id': 309, 'quantity': 2, 'unit_price': 108.2, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 281, 'customer_id': 415.0, 'product_id': 394, 'quantity': 3, 'unit_price': 73.08, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 301, 'customer_id': 488.0, 'product_id': 156, 'quantity': 3, 'unit_price': 166.62, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 366, 'customer_id': 619.0, 'product_id': 406, 'quantity': 1, 'unit_price': 324.7, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 394, 'customer_id': 618.0, 'product_id': 132, 'quantity': 4, 'unit_price': 240.05, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 400, 'customer_id': 203.0, 'product_id': 166, 'quantity': 1, 'unit_price': 419.34, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 493, 'customer_id': nan, 'product_id': 180, 'quantity': 2, 'unit_price': 177.26, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 550, 'customer_id': 153.0, 'product_id': 223, 'quantity': 2, 'unit_price': 84.01, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'completed'}
-orders: invalid date -> {'order_id': 581, 'customer_id': 236.0, 'product_id': 522, 'quantity': 1, 'unit_price': 294.98, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'completed'}
-orders: invalid date -> {'order_id': 591, 'customer_id': 635.0, 'product_id': 456, 'quantity': 3, 'unit_price': 465.78, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 597, 'customer_id': 408.0, 'product_id': 423, 'quantity': 4, 'unit_price': 221.92, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'completed'}
-orders: invalid date -> {'order_id': 616, 'customer_id': 367.0, 'product_id': 384, 'quantity': 5, 'unit_price': 157.11, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'completed'}
-orders: invalid date -> {'order_id': 623, 'customer_id': 629.0, 'product_id': 29, 'quantity': 2, 'unit_price': 300.78, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 666, 'customer_id': 226.0, 'product_id': 396, 'quantity': 3, 'unit_price': 223.24, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 674, 'customer_id': 354.0, 'product_id': 92, 'quantity': 4, 'unit_price': 364.85, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 743, 'customer_id': 461.0, 'product_id': 549, 'quantity': 1, 'unit_price': 479.73, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 794, 'customer_id': 4.0, 'product_id': 2, 'quantity': 5, 'unit_price': 215.67, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 873, 'customer_id': 312.0, 'product_id': 351, 'quantity': 5, 'unit_price': 492.72, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 962, 'customer_id': 439.0, 'product_id': 160, 'quantity': 1, 'unit_price': 442.42, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 1028, 'customer_id': 117.0, 'product_id': 545, 'quantity': 5, 'unit_price': 223.2, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 1046, 'customer_id': 677.0, 'product_id': 86, 'quantity': 3, 'unit_price': 56.59, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'completed'}
-orders: invalid date -> {'order_id': 1111, 'customer_id': 487.0, 'product_id': 622, 'quantity': 5, 'unit_price': 39.78, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 1137, 'customer_id': 276.0, 'product_id': 89, 'quantity': 4, 'unit_price': 458.91, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 1162, 'customer_id': 589.0, 'product_id': 89, 'quantity': 2, 'unit_price': 423.48, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
-orders: invalid date -> {'order_id': 1181, 'customer_id': 616.0, 'product_id': 456, 'quantity': 3, 'unit_price': 404.67, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
-orders: invalid date -> {'order_id': 1, 'customer_id': 380.0, 'product_id': 512, 'quantity': 3, 'unit_price': 256.02, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
-payments: invalid amount -> {'payment_id': 1, 'order_id': 778, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-04-14 23:23:52'}
-payments: invalid amount -> {'payment_id': 7, 'order_id': 239, 'payment_method': 'card', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2026-01-01 19:45:57'}
-payments: invalid amount -> {'payment_id': 14, 'order_id': 187, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2026-04-22 23:43:11'}
-payments: invalid amount -> {'payment_id': 42, 'order_id': 832, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-11-06 01:02:23'}
-payments: invalid amount -> {'payment_id': 117, 'order_id': 188, 'payment_method': nan, 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2025-03-09 23:15:50'}
-payments: invalid amount -> {'payment_id': 141, 'order_id': 226, 'payment_method': 'paypal', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2025-04-25 04:13:36'}
-payments: invalid amount -> {'payment_id': 179, 'order_id': 291, 'payment_method': nan, 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2025-05-17 15:12:18'}
-payments: invalid amount -> {'payment_id': 213, 'order_id': 818, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2024-05-27 10:00:18'}
-payments: invalid amount -> {'payment_id': 225, 'order_id': 225, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-08-31 18:13:59'}
-payments: invalid amount -> {'payment_id': 232, 'order_id': 94, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2024-07-11 14:46:17'}
-payments: invalid amount -> {'payment_id': 240, 'order_id': 669, 'payment_method': 'paypal', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2024-11-25 16:21:53'}
-payments: invalid amount -> {'payment_id': 296, 'order_id': 281, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2026-01-01 13:04:22'}
-payments: invalid amount -> {'payment_id': 359, 'order_id': 605, 'payment_method': 'paypal', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2025-05-04 22:33:29'}
-payments: invalid amount -> {'payment_id': 422, 'order_id': 447, 'payment_method': 'card', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2024-09-21 15:00:18'}
-payments: invalid amount -> {'payment_id': 500, 'order_id': 731, 'payment_method': 'card', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-06-17 10:28:20'}
-payments: invalid amount -> {'payment_id': 563, 'order_id': 891, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2025-02-16 16:18:19'}
-payments: invalid amount -> {'payment_id': 565, 'order_id': 212, 'payment_method': 'paypal', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2024-06-29 18:26:48'}
-payments: invalid amount -> {'payment_id': 610, 'order_id': 702, 'payment_method': 'card', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2026-03-29 04:34:03'}
-payments: invalid amount -> {'payment_id': 682, 'order_id': 1040, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2024-08-08 22:23:10'}
-payments: invalid amount -> {'payment_id': 686, 'order_id': 935, 'payment_method': 'card', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2025-12-08 05:46:51'}
-payments: invalid amount -> {'payment_id': 744, 'order_id': 26, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-08-27 03:25:32'}
-payments: invalid amount -> {'payment_id': 768, 'order_id': 1138, 'payment_method': nan, 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2025-07-01 23:54:52'}
-payments: invalid amount -> {'payment_id': 808, 'order_id': 387, 'payment_method': 'paypal', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2025-11-13 02:52:25'}
-payments: invalid amount -> {'payment_id': 834, 'order_id': 923, 'payment_method': nan, 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2025-02-21 11:47:36'}
-payments: invalid amount -> {'payment_id': 856, 'order_id': 398, 'payment_method': 'card', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2024-09-04 10:47:33'}
-payments: invalid amount -> {'payment_id': 860, 'order_id': 136, 'payment_method': nan, 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2024-06-10 06:57:55'}
-payments: invalid amount -> {'payment_id': 865, 'order_id': 457, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'RUB', 'payment_timestamp': '2026-01-21 09:27:18'}
-payments: invalid amount -> {'payment_id': 870, 'order_id': 640, 'payment_method': 'paypal', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2024-08-07 03:26:23'}
-payments: invalid amount -> {'payment_id': 928, 'order_id': 331, 'payment_method': 'paypal', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '13/45/2025'}
-payments: invalid amount -> {'payment_id': 937, 'order_id': 808, 'payment_method': 'paypal', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2024-10-09 15:58:16'}
-payments: invalid amount -> {'payment_id': 957, 'order_id': 500, 'payment_method': nan, 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-10-31 13:34:40'}
-payments: invalid amount -> {'payment_id': 966, 'order_id': 379, 'payment_method': 'paypal', 'amount': nan, 'currency': 'USD', 'payment_timestamp': '2025-09-15 15:53:01'}
-payments: invalid amount -> {'payment_id': 1, 'order_id': 778, 'payment_method': 'bank_transfer', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2025-04-14 23:23:52'}
-payments: invalid amount -> {'payment_id': 7, 'order_id': 239, 'payment_method': 'card', 'amount': nan, 'currency': 'EUR', 'payment_timestamp': '2026-01-01 19:45:57'}
+customers: invalid created_at -> {'customer_id': 67, 'full_name': 'Роман Дмитриевич Якушев', 'email': 'kapiton28@kordiant.edu', 'phone': None, 'city': 'клх Ирбит', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 70, 'full_name': 'Герман Викторович Гусев', 'email': 'germankabanov@zao.com', 'phone': '8 (972) 724-95-58', 'city': 'п. Кыштым', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 139, 'full_name': 'Лора Ильинична Голубева', 'email': 'gusevaelizaveta@rao.net', 'phone': '8 (905) 325-60-86', 'city': 'г. Верещагино (Перм.)', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 166, 'full_name': 'Владимир Викентьевич Данилов', 'email': 'ipat_77@gureva.ru', 'phone': '8 (997) 822-70-67', 'city': 'г. Стерлитамак', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 233, 'full_name': 'Лукия Олеговна Суворова', 'email': 'belozerovartemi@es.edu', 'phone': None, 'city': 'с. Клин', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 326, 'full_name': 'Сила Тимурович Смирнов', 'email': 'danila71@hotmail.com', 'phone': '9161669421', 'city': 'г. Волгоград', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 338, 'full_name': 'Дмитриева Елена Валериевна', 'email': 'romanovgostomisl@rambler.ru', 'phone': '8 (921) 687-65-60', 'city': 'с. Каргополь', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 394, 'full_name': 'Маргарита Тимуровна Зыкова', 'email': 'sergeevauljana@ip.ru', 'phone': '+79680202067', 'city': 'ст. Шарья', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 492, 'full_name': 'Мельникова Майя Аскольдовна', 'email': 'sharapovanike@rao.info', 'phone': '8 (958) 797-68-85', 'city': 'г. Карабулак', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 493, 'full_name': 'Селиверст Глебович Кудрявцев', 'email': 'kozlovaekaterina@ao.biz', 'phone': '+79246885603', 'city': 'клх Юрьевец (Иван.)', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 511, 'full_name': 'Шарапов Парамон Давыдович', 'email': 'uignatov@rambler.ru', 'phone': '+79559350437', 'city': 'п. Усть-Ишим', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 522, 'full_name': 'Иванна Эдуардовна Осипова', 'email': 'hohlovemeljan@mail.ru', 'phone': '8 (989) 737-72-34', 'city': 'с. Балашиха', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 653, 'full_name': 'Октябрина Степановна Силина', 'email': 'julian_29@mironov.ru', 'phone': None, 'city': 'ст. Беломорск', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 654, 'full_name': 'Щербакова Светлана Рубеновна', 'email': 'noskovvisheslav@yahoo.com', 'phone': None, 'city': 'п. Темрюк', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 672, 'full_name': 'Дарья Георгиевна Петрова', 'email': 'kostinaekaterina@gmail.com', 'phone': '8 (906) 650-32-30', 'city': 'с. Тимашевск', 'created_at': NaT}
+customers: invalid created_at -> {'customer_id': 698, 'full_name': 'Сократ Владиславович Мельников', 'email': 'mishinignati@general.edu', 'phone': None, 'city': 'п. Качканар', 'created_at': NaT}
+events: invalid event_timestamp -> {'event_id': '16', 'customer_id': '111', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '411'}
+events: invalid event_timestamp -> {'event_id': '73', 'customer_id': '606', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '95'}
+events: invalid event_timestamp -> {'event_id': '120', 'customer_id': '161', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '90'}
+events: invalid event_timestamp -> {'event_id': '146', 'customer_id': '561', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '645'}
+events: invalid event_timestamp -> {'event_id': '152', 'customer_id': '320', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '251'}
+events: invalid event_timestamp -> {'event_id': '185', 'customer_id': '500', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '202'}
+events: invalid event_timestamp -> {'event_id': '225', 'customer_id': '999999', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '528'}
+events: invalid event_timestamp -> {'event_id': '245', 'customer_id': '200', 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': '630'}
+events: invalid event_timestamp -> {'event_id': '267', 'customer_id': '706', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '401'}
+events: invalid event_timestamp -> {'event_id': '269', 'customer_id': '18', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '347'}
+events: invalid event_timestamp -> {'event_id': '305', 'customer_id': '571', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '31'}
+events: invalid event_timestamp -> {'event_id': '338', 'customer_id': '485', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '521'}
+events: invalid event_timestamp -> {'event_id': '401', 'customer_id': '999999', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '387'}
+events: invalid event_timestamp -> {'event_id': '417', 'customer_id': '252', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '523'}
+events: invalid event_timestamp -> {'event_id': '423', 'customer_id': '107', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '381'}
+events: invalid event_timestamp -> {'event_id': '437', 'customer_id': '507', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '114'}
+events: invalid event_timestamp -> {'event_id': '444', 'customer_id': '387', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '285'}
+events: invalid event_timestamp -> {'event_id': '452', 'customer_id': '492', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '550'}
+events: invalid event_timestamp -> {'event_id': '505', 'customer_id': '251', 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': '616'}
+events: invalid event_timestamp -> {'event_id': '508', 'customer_id': '345', 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': '590'}
+events: invalid event_timestamp -> {'event_id': '513', 'customer_id': '395', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '205'}
+events: invalid event_timestamp -> {'event_id': '543', 'customer_id': '451', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '221'}
+events: invalid event_timestamp -> {'event_id': '561', 'customer_id': '20', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '82'}
+events: invalid event_timestamp -> {'event_id': '581', 'customer_id': '999999', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '492'}
+events: invalid event_timestamp -> {'event_id': '604', 'customer_id': '719', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '185'}
+events: invalid event_timestamp -> {'event_id': '617', 'customer_id': '376', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '364'}
+events: invalid event_timestamp -> {'event_id': '644', 'customer_id': '633', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '108'}
+events: invalid event_timestamp -> {'event_id': '665', 'customer_id': '350', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '86'}
+events: invalid event_timestamp -> {'event_id': '675', 'customer_id': '82', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '522'}
+events: invalid event_timestamp -> {'event_id': '862', 'customer_id': '542', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '445'}
+events: invalid event_timestamp -> {'event_id': '951', 'customer_id': '362', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '173'}
+events: invalid event_timestamp -> {'event_id': '962', 'customer_id': '701', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '328'}
+events: invalid event_timestamp -> {'event_id': '1019', 'customer_id': '721', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '205'}
+events: invalid event_timestamp -> {'event_id': '1067', 'customer_id': '470', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '108'}
+events: invalid event_timestamp -> {'event_id': '1081', 'customer_id': '999999', 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': '288'}
+events: invalid event_timestamp -> {'event_id': '1115', 'customer_id': '662', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '237'}
+events: invalid event_timestamp -> {'event_id': '1120', 'customer_id': '178', 'event_type': 'view', 'event_timestamp': NaT, 'product_id': '83'}
+events: invalid event_timestamp -> {'event_id': '1149', 'customer_id': '999999', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '576'}
+events: invalid event_timestamp -> {'event_id': '1174', 'customer_id': '558', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '137'}
+events: invalid event_timestamp -> {'event_id': '1193', 'customer_id': '401', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '560'}
+events: invalid event_timestamp -> {'event_id': '1211', 'customer_id': '547', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '608'}
+events: invalid event_timestamp -> {'event_id': '1220', 'customer_id': '700', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '584'}
+events: invalid event_timestamp -> {'event_id': '1235', 'customer_id': '53', 'event_type': 'logout', 'event_timestamp': NaT, 'product_id': '5'}
+events: invalid event_timestamp -> {'event_id': '1362', 'customer_id': '508', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '340'}
+events: invalid event_timestamp -> {'event_id': '1412', 'customer_id': '30', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '495'}
+events: invalid event_timestamp -> {'event_id': '1443', 'customer_id': '203', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '461'}
+events: invalid event_timestamp -> {'event_id': '1448', 'customer_id': '584', 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': '351'}
+events: invalid event_timestamp -> {'event_id': '1469', 'customer_id': '158', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '567'}
+events: invalid event_timestamp -> {'event_id': '1475', 'customer_id': '119', 'event_type': 'click', 'event_timestamp': NaT, 'product_id': '170'}
+events: invalid event_timestamp -> {'event_id': '1498', 'customer_id': '62', 'event_type': 'login', 'event_timestamp': NaT, 'product_id': '354'}
+events: invalid event_timestamp -> {'event_id': 'BAD_ID', 'customer_id': None, 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': None}
+events: invalid id -> {'event_id': None, 'customer_id': None, 'event_type': 'purchase', 'event_timestamp': NaT, 'product_id': None}
+orders: invalid order_timestamp -> {'order_id': 1, 'customer_id': 380.0, 'product_id': 512, 'quantity': 3, 'unit_price': 256.02, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 67, 'customer_id': 486.0, 'product_id': 10, 'quantity': 3, 'unit_price': 441.82, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 113, 'customer_id': 622.0, 'product_id': 461, 'quantity': 2, 'unit_price': 167.37, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 140, 'customer_id': 465.0, 'product_id': 394, 'quantity': 1, 'unit_price': 142.45, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 147, 'customer_id': 244.0, 'product_id': 556, 'quantity': 3, 'unit_price': 51.91, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 191, 'customer_id': 741.0, 'product_id': 214, 'quantity': 1, 'unit_price': 250.44, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 202, 'customer_id': 133.0, 'product_id': 342, 'quantity': 1, 'unit_price': 403.18, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 210, 'customer_id': 436.0, 'product_id': 271, 'quantity': 3, 'unit_price': 234.86, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 233, 'customer_id': 485.0, 'product_id': 630, 'quantity': 2, 'unit_price': 494.65, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'completed'}
+orders: invalid order_timestamp -> {'order_id': 270, 'customer_id': 406.0, 'product_id': 309, 'quantity': 2, 'unit_price': 108.2, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 281, 'customer_id': 415.0, 'product_id': 394, 'quantity': 3, 'unit_price': 73.08, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 301, 'customer_id': 488.0, 'product_id': 156, 'quantity': 3, 'unit_price': 166.62, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 366, 'customer_id': 619.0, 'product_id': 406, 'quantity': 1, 'unit_price': 324.7, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 394, 'customer_id': 618.0, 'product_id': 132, 'quantity': 4, 'unit_price': 240.05, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 400, 'customer_id': 203.0, 'product_id': 166, 'quantity': 1, 'unit_price': 419.34, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 493, 'customer_id': nan, 'product_id': 180, 'quantity': 2, 'unit_price': 177.26, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 550, 'customer_id': 153.0, 'product_id': 223, 'quantity': 2, 'unit_price': 84.01, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'completed'}
+orders: invalid order_timestamp -> {'order_id': 581, 'customer_id': 236.0, 'product_id': 522, 'quantity': 1, 'unit_price': 294.98, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'completed'}
+orders: invalid order_timestamp -> {'order_id': 591, 'customer_id': 635.0, 'product_id': 456, 'quantity': 3, 'unit_price': 465.78, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 597, 'customer_id': 408.0, 'product_id': 423, 'quantity': 4, 'unit_price': 221.92, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'completed'}
+orders: invalid order_timestamp -> {'order_id': 616, 'customer_id': 367.0, 'product_id': 384, 'quantity': 5, 'unit_price': 157.11, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'completed'}
+orders: invalid order_timestamp -> {'order_id': 623, 'customer_id': 629.0, 'product_id': 29, 'quantity': 2, 'unit_price': 300.78, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 666, 'customer_id': 226.0, 'product_id': 396, 'quantity': 3, 'unit_price': 223.24, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 674, 'customer_id': 354.0, 'product_id': 92, 'quantity': 4, 'unit_price': 364.85, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 743, 'customer_id': 461.0, 'product_id': 549, 'quantity': 1, 'unit_price': 479.73, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 794, 'customer_id': 4.0, 'product_id': 2, 'quantity': 5, 'unit_price': 215.67, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 873, 'customer_id': 312.0, 'product_id': 351, 'quantity': 5, 'unit_price': 492.72, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 962, 'customer_id': 439.0, 'product_id': 160, 'quantity': 1, 'unit_price': 442.42, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 1028, 'customer_id': 117.0, 'product_id': 545, 'quantity': 5, 'unit_price': 223.2, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 1046, 'customer_id': 677.0, 'product_id': 86, 'quantity': 3, 'unit_price': 56.59, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'completed'}
+orders: invalid order_timestamp -> {'order_id': 1111, 'customer_id': 487.0, 'product_id': 622, 'quantity': 5, 'unit_price': 39.78, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 1137, 'customer_id': 276.0, 'product_id': 89, 'quantity': 4, 'unit_price': 458.91, 'currency': 'EUR', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 1162, 'customer_id': 589.0, 'product_id': 89, 'quantity': 2, 'unit_price': 423.48, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'cancelled'}
+orders: invalid order_timestamp -> {'order_id': 1181, 'customer_id': 616.0, 'product_id': 456, 'quantity': 3, 'unit_price': 404.67, 'currency': 'RUB', 'order_timestamp': NaT, 'status': 'processing'}
+orders: invalid order_timestamp -> {'order_id': 1, 'customer_id': 380.0, 'product_id': 512, 'quantity': 3, 'unit_price': 256.02, 'currency': 'USD', 'order_timestamp': NaT, 'status': 'processing'}
+payments: invalid amount -> {'payment_id': 1, 'order_id': 778, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-04-14 23:23:52')}
+payments: invalid amount -> {'payment_id': 7, 'order_id': 239, 'payment_method': 'card', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2026-01-01 19:45:57')}
+payments: invalid amount -> {'payment_id': 14, 'order_id': 187, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2026-04-22 23:43:11')}
+payments: invalid amount -> {'payment_id': 42, 'order_id': 832, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-11-06 01:02:23')}
+payments: invalid amount -> {'payment_id': 117, 'order_id': 188, 'payment_method': None, 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2025-03-09 23:15:50')}
+payments: invalid amount -> {'payment_id': 141, 'order_id': 226, 'payment_method': 'paypal', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2025-04-25 04:13:36')}
+payments: invalid amount -> {'payment_id': 179, 'order_id': 291, 'payment_method': None, 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2025-05-17 15:12:18')}
+payments: invalid amount -> {'payment_id': 213, 'order_id': 818, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2024-05-27 10:00:18')}
+payments: invalid amount -> {'payment_id': 225, 'order_id': 225, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-08-31 18:13:59')}
+payments: invalid amount -> {'payment_id': 232, 'order_id': 94, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2024-07-11 14:46:17')}
+payments: invalid amount -> {'payment_id': 240, 'order_id': 669, 'payment_method': 'paypal', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2024-11-25 16:21:53')}
+payments: invalid amount -> {'payment_id': 296, 'order_id': 281, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2026-01-01 13:04:22')}
+payments: invalid amount -> {'payment_id': 359, 'order_id': 605, 'payment_method': 'paypal', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2025-05-04 22:33:29')}
+payments: invalid amount -> {'payment_id': 422, 'order_id': 447, 'payment_method': 'card', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2024-09-21 15:00:18')}
+payments: invalid amount -> {'payment_id': 500, 'order_id': 731, 'payment_method': 'card', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-06-17 10:28:20')}
+payments: invalid amount -> {'payment_id': 563, 'order_id': 891, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2025-02-16 16:18:19')}
+payments: invalid amount -> {'payment_id': 565, 'order_id': 212, 'payment_method': 'paypal', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2024-06-29 18:26:48')}
+payments: invalid amount -> {'payment_id': 610, 'order_id': 702, 'payment_method': 'card', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2026-03-29 04:34:03')}
+payments: invalid amount -> {'payment_id': 682, 'order_id': 1040, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2024-08-08 22:23:10')}
+payments: invalid amount -> {'payment_id': 686, 'order_id': 935, 'payment_method': 'card', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2025-12-08 05:46:51')}
+payments: invalid amount -> {'payment_id': 744, 'order_id': 26, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-08-27 03:25:32')}
+payments: invalid amount -> {'payment_id': 768, 'order_id': 1138, 'payment_method': None, 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2025-07-01 23:54:52')}
+payments: invalid amount -> {'payment_id': 808, 'order_id': 387, 'payment_method': 'paypal', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2025-11-13 02:52:25')}
+payments: invalid amount -> {'payment_id': 834, 'order_id': 923, 'payment_method': None, 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2025-02-21 11:47:36')}
+payments: invalid amount -> {'payment_id': 856, 'order_id': 398, 'payment_method': 'card', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2024-09-04 10:47:33')}
+payments: invalid amount -> {'payment_id': 860, 'order_id': 136, 'payment_method': None, 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2024-06-10 06:57:55')}
+payments: invalid amount -> {'payment_id': 865, 'order_id': 457, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'RUB', 'payment_timestamp': Timestamp('2026-01-21 09:27:18')}
+payments: invalid amount -> {'payment_id': 870, 'order_id': 640, 'payment_method': 'paypal', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2024-08-07 03:26:23')}
+payments: invalid amount -> {'payment_id': 928, 'order_id': 331, 'payment_method': 'paypal', 'amount': None, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid amount -> {'payment_id': 937, 'order_id': 808, 'payment_method': 'paypal', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2024-10-09 15:58:16')}
+payments: invalid amount -> {'payment_id': 957, 'order_id': 500, 'payment_method': None, 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-10-31 13:34:40')}
+payments: invalid amount -> {'payment_id': 966, 'order_id': 379, 'payment_method': 'paypal', 'amount': None, 'currency': 'USD', 'payment_timestamp': Timestamp('2025-09-15 15:53:01')}
+payments: invalid amount -> {'payment_id': 1, 'order_id': 778, 'payment_method': 'bank_transfer', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2025-04-14 23:23:52')}
+payments: invalid amount -> {'payment_id': 7, 'order_id': 239, 'payment_method': 'card', 'amount': None, 'currency': 'EUR', 'payment_timestamp': Timestamp('2026-01-01 19:45:57')}
+payments: invalid payment_timestamp -> {'payment_id': 12, 'order_id': 290, 'payment_method': None, 'amount': 2416.24, 'currency': 'EUR', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 15, 'order_id': 388, 'payment_method': None, 'amount': 692.44, 'currency': 'RUB', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 68, 'order_id': 566, 'payment_method': 'paypal', 'amount': 356.27, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 120, 'order_id': 1276, 'payment_method': None, 'amount': 1315.1, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 152, 'order_id': 1170, 'payment_method': None, 'amount': 762.55, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 207, 'order_id': 952, 'payment_method': 'card', 'amount': 1805.68, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 344, 'order_id': 1091, 'payment_method': 'paypal', 'amount': 738.57, 'currency': 'RUB', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 424, 'order_id': 1058, 'payment_method': 'card', 'amount': 733.03, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 425, 'order_id': 1188, 'payment_method': 'card', 'amount': 771.33, 'currency': 'EUR', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 428, 'order_id': 690, 'payment_method': 'bank_transfer', 'amount': 2154.76, 'currency': 'RUB', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 456, 'order_id': 1023, 'payment_method': 'paypal', 'amount': 1873.68, 'currency': 'RUB', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 482, 'order_id': 610, 'payment_method': None, 'amount': 2426.61, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 503, 'order_id': 405, 'payment_method': 'bank_transfer', 'amount': 236.64, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 511, 'order_id': 35, 'payment_method': 'card', 'amount': 943.38, 'currency': 'EUR', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 594, 'order_id': 1112, 'payment_method': None, 'amount': 557.39, 'currency': 'EUR', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 694, 'order_id': 602, 'payment_method': 'paypal', 'amount': 1142.63, 'currency': 'EUR', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 904, 'order_id': 998, 'payment_method': None, 'amount': 1028.19, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 928, 'order_id': 331, 'payment_method': 'paypal', 'amount': None, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 941, 'order_id': 972, 'payment_method': None, 'amount': 1474.9, 'currency': 'RUB', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 964, 'order_id': 877, 'payment_method': 'paypal', 'amount': 1934.1, 'currency': 'USD', 'payment_timestamp': NaT}
+payments: invalid payment_timestamp -> {'payment_id': 12, 'order_id': 290, 'payment_method': None, 'amount': 2416.24, 'currency': 'EUR', 'payment_timestamp': NaT}
+products: invalid price -> {'product_id': 24, 'product_name': 'Неожиданно', 'category': 'Home', 'price': nan, 'currency': 'EUR', 'is_active': False}
+products: invalid price -> {'product_id': 85, 'product_name': 'Число', 'category': 'Home', 'price': nan, 'currency': 'RUB', 'is_active': True}
+products: invalid price -> {'product_id': 104, 'product_name': 'Конференция', 'category': 'Books', 'price': nan, 'currency': 'RUB', 'is_active': False}
+products: invalid price -> {'product_id': 136, 'product_name': 'Потрясти', 'category': 'Sports', 'price': nan, 'currency': 'EUR', 'is_active': False}
+products: invalid price -> {'product_id': 192, 'product_name': 'Порядок', 'category': 'Sports', 'price': nan, 'currency': 'RUB', 'is_active': True}
+products: invalid price -> {'product_id': 200, 'product_name': 'Академик', 'category': 'Books', 'price': nan, 'currency': 'RUB', 'is_active': True}
+products: invalid price -> {'product_id': 224, 'product_name': 'Пасть', 'category': 'Clothing', 'price': nan, 'currency': 'EUR', 'is_active': True}
+products: invalid price -> {'product_id': 284, 'product_name': 'Стакан', 'category': 'Books', 'price': nan, 'currency': 'USD', 'is_active': False}
+products: invalid price -> {'product_id': 313, 'product_name': 'Факультет', 'category': 'Books', 'price': nan, 'currency': 'USD', 'is_active': False}
+products: invalid price -> {'product_id': 342, 'product_name': 'Песенка', 'category': 'Books', 'price': nan, 'currency': 'RUB', 'is_active': True}
+products: invalid price -> {'product_id': 352, 'product_name': 'Важный', 'category': 'Clothing', 'price': nan, 'currency': 'EUR', 'is_active': True}
+products: invalid price -> {'product_id': 392, 'product_name': 'Сохранять', 'category': 'Home', 'price': nan, 'currency': 'EUR', 'is_active': False}
+products: invalid price -> {'product_id': 395, 'product_name': 'Райком', 'category': 'Clothing', 'price': nan, 'currency': 'RUB', 'is_active': True}
+products: invalid price -> {'product_id': 405, 'product_name': 'Холодно', 'category': 'Home', 'price': nan, 'currency': 'EUR', 'is_active': False}
+products: invalid price -> {'product_id': 414, 'product_name': 'Анализ', 'category': 'Home', 'price': nan, 'currency': 'USD', 'is_active': False}
+products: invalid price -> {'product_id': 479, 'product_name': 'Приличный', 'category': 'Books', 'price': nan, 'currency': 'USD', 'is_active': True}
+products: invalid price -> {'product_id': 509, 'product_name': 'Мучительно', 'category': 'Sports', 'price': nan, 'currency': 'RUB', 'is_active': True}
+products: invalid price -> {'product_id': 526, 'product_name': 'Точно', 'category': 'Electronics', 'price': nan, 'currency': 'USD', 'is_active': True}
+products: invalid price -> {'product_id': 589, 'product_name': 'Лететь', 'category': 'Clothing', 'price': nan, 'currency': 'EUR', 'is_active': False}

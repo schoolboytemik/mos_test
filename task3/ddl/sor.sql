@@ -52,7 +52,8 @@ CREATE TABLE sor.sat_customer (
     hashdiff        BYTEA NOT NULL,
 
     load_dttm       TIMESTAMP NOT NULL,
-    record_source   TEXT NOT NULL
+    record_source   TEXT NOT NULL,
+    UNIQUE (hk_customer, hashdiff)
 );
 
 CREATE TABLE sor.sat_product (
@@ -67,7 +68,8 @@ CREATE TABLE sor.sat_product (
     hashdiff        BYTEA NOT NULL,
 
     load_dttm       TIMESTAMP NOT NULL,
-    record_source   TEXT NOT NULL
+    record_source   TEXT NOT NULL,
+    UNIQUE (hk_product, hashdiff)
 );
 
 CREATE TABLE sor.sat_order (
@@ -82,7 +84,8 @@ CREATE TABLE sor.sat_order (
     hashdiff        BYTEA NOT NULL,
 
     load_dttm       TIMESTAMP NOT NULL,
-    record_source   TEXT NOT NULL
+    record_source   TEXT NOT NULL,
+    UNIQUE (hk_order, hashdiff)
 );
 
 CREATE TABLE sor.sat_payment (
@@ -96,7 +99,8 @@ CREATE TABLE sor.sat_payment (
     hashdiff            BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_payment, hashdiff)
 );
 
 CREATE TABLE sor.sat_event (
@@ -108,7 +112,8 @@ CREATE TABLE sor.sat_event (
     hashdiff            BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_event, hashdiff)
 );
 
 CREATE TABLE sor.link_customer_order (
@@ -118,7 +123,8 @@ CREATE TABLE sor.link_customer_order (
     hk_order            BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_customer, hk_order)
 );
 
 CREATE TABLE sor.link_order_product (
@@ -128,7 +134,8 @@ CREATE TABLE sor.link_order_product (
     hk_product          BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_order, hk_product)
 );
 
 CREATE TABLE sor.link_order_payment (
@@ -138,7 +145,8 @@ CREATE TABLE sor.link_order_payment (
     hk_payment          BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_order, hk_payment)
 );
 
 CREATE TABLE sor.link_customer_event (
@@ -148,7 +156,8 @@ CREATE TABLE sor.link_customer_event (
     hk_event            BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_customer, hk_event)
 );
 
 CREATE TABLE sor.link_event_product (
@@ -158,5 +167,6 @@ CREATE TABLE sor.link_event_product (
     hk_product          BYTEA NOT NULL,
 
     load_dttm           TIMESTAMP NOT NULL,
-    record_source       TEXT NOT NULL
+    record_source       TEXT NOT NULL,
+    UNIQUE (hk_event, hk_product)
 );

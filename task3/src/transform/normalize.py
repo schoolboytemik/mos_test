@@ -19,7 +19,7 @@ def save_problem(dataset, row, reason):
 
 def clean_text(series):
     return (
-        series.astype(str)
+        series.astype("string")
         .str.strip()
         .str.replace(r"\s+", " ", regex=True)
     )
@@ -39,12 +39,23 @@ customers = pd.read_csv(DATA / "customers.csv")
 
 customers = clean_strings(customers)
 
-customers["full_name"] = (
-    customers["full_name"]
-    .str.title()
-)
+customers["full_name"] = customers["full_name"].str.title()
 
 customers["phone"] = customers["phone"].replace("UNKNOWN", pd.NA)
+
+customers["created_at"] = pd.to_datetime(
+    customers["created_at"],
+    errors="coerce"
+)
+
+bad_dates = customers["created_at"].isna()
+
+for _, row in customers[bad_dates].iterrows():
+    save_problem(
+        "customers",
+        row.to_dict(),
+        "invalid created_at"
+    )
 
 customers.to_csv(
     OUT / "customers.csv",
@@ -70,6 +81,48 @@ events = pd.DataFrame(rows)
 
 events = clean_strings(events)
 
+events["event_timestamp"] = pd.to_datetime(
+    events["event_timestamp"],
+    errors="coerce"
+)
+
+bad_dates = events["event_timestamp"].isna()
+
+for _, row in events[bad_dates].iterrows():
+    save_problem(
+        "events",
+        row.to_dict(),
+        "invalid event_timestamp"
+    )
+
+events["event_id"] = pd.to_numeric(
+    events["event_id"],
+    errors="coerce"
+)
+
+events["customer_id"] = pd.to_numeric(
+    events["customer_id"],
+    errors="coerce"
+)
+
+events["product_id"] = pd.to_numeric(
+    events["product_id"],
+    errors="coerce"
+)
+
+bad_ids = (
+    events["event_id"].isna()
+    | events["customer_id"].isna()
+    | events["product_id"].isna()
+)
+
+for _, row in events[bad_ids].iterrows():
+    save_problem(
+        "events",
+        row.to_dict(),
+        "invalid id"
+    )
+
 events.to_csv(
     OUT / "events.csv",
     index=False
@@ -90,13 +143,27 @@ orders["order_timestamp"] = pd.to_datetime(
     errors="coerce"
 )
 
+orders["unit_price"] = pd.to_numeric(
+    orders["unit_price"],
+    errors="coerce"
+)
+
 bad_dates = orders["order_timestamp"].isna()
 
 for _, row in orders[bad_dates].iterrows():
     save_problem(
         "orders",
         row.to_dict(),
-        "invalid date"
+        "invalid order_timestamp"
+    )
+
+bad_prices = orders["unit_price"].isna()
+
+for _, row in orders[bad_prices].iterrows():
+    save_problem(
+        "orders",
+        row.to_dict(),
+        "invalid unit_price"
     )
 
 orders.to_csv(
@@ -121,6 +188,11 @@ payments["amount"] = pd.to_numeric(
     errors="coerce"
 )
 
+payments["payment_timestamp"] = pd.to_datetime(
+    payments["payment_timestamp"],
+    errors="coerce"
+)
+
 bad_amounts = payments["amount"].isna()
 
 for _, row in payments[bad_amounts].iterrows():
@@ -128,6 +200,15 @@ for _, row in payments[bad_amounts].iterrows():
         "payments",
         row.to_dict(),
         "invalid amount"
+    )
+
+bad_dates = payments["payment_timestamp"].isna()
+
+for _, row in payments[bad_dates].iterrows():
+    save_problem(
+        "payments",
+        row.to_dict(),
+        "invalid payment_timestamp"
     )
 
 payments.to_csv(
@@ -164,6 +245,15 @@ products["is_active"] = (
         "ЛОЖЬ": False
     })
 )
+
+bad_prices = products["price"].isna()
+
+for _, row in products[bad_prices].iterrows():
+    save_problem(
+        "products",
+        row.to_dict(),
+        "invalid price"
+    )
 
 products.to_csv(
     OUT / "products.csv",
