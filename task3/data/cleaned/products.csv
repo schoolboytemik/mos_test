@@ -16,7 +16,7 @@ product_id,product_name,category,price,currency,is_active
 15,Падать,Books,837.23,USD,True
 16,Исполнять,Sports,1530.61,RUB,False
 17,Боец,Clothing,1164.23,RUB,True
-18,Лететь   ,Home,749.54,USD,True
+18,Лететь,Home,749.54,USD,True
 19,Конструкция,Home,296.54,USD,True
 20,Приятель,Home,548.98,USD,False
 21,Исследование,Books,586.87,RUB,True
@@ -35,7 +35,7 @@ product_id,product_name,category,price,currency,is_active
 34,Очко,Books,1510.33,RUB,True
 35,Витрина,Home,373.64,RUB,False
 36,Конференция,Sports,707.65,USD,True
-37,Избегать   ,Books,202.72,RUB,True
+37,Избегать,Books,202.72,RUB,True
 38,Близко,Electronics,1928.71,RUB,True
 39,Собеседник,Clothing,1848.84,EUR,True
 40,Сверкать,Home,882.13,EUR,False
@@ -55,7 +55,7 @@ product_id,product_name,category,price,currency,is_active
 54,Штаб,Home,1357.82,USD,False
 55,Жидкий,Sports,1245.82,EUR,False
 56,Спорт,Home,407.85,RUB,False
-57,Пища   ,Electronics,1619.92,EUR,True
+57,Пища,Electronics,1619.92,EUR,True
 58,Рабочий,Clothing,770.34,USD,True
 59,Сверкать,Books,357.85,EUR,False
 60,Трясти,Electronics,273.3,RUB,False
@@ -173,7 +173,7 @@ product_id,product_name,category,price,currency,is_active
 172,Налево,Sports,1592.97,USD,False
 173,Коробка,Books,1382.94,USD,True
 174,Вариант,Clothing,1213.47,EUR,True
-175,Очко   ,Home,422.82,EUR,True
+175,Очко,Home,422.82,EUR,True
 176,Эпоха,Electronics,353.56,EUR,False
 177,Песенка,Clothing,232.37,EUR,False
 178,Похороны,Sports,1570.85,EUR,True
@@ -182,7 +182,7 @@ product_id,product_name,category,price,currency,is_active
 181,Цель,Electronics,1648.1,USD,False
 182,Темнеть,Sports,318.28,EUR,True
 183,Очутиться,Electronics,312.82,USD,False
-184,Жить   ,Clothing,1939.43,EUR,False
+184,Жить,Clothing,1939.43,EUR,False
 185,Жестокий,Clothing,1012.52,EUR,True
 186,Отражение,Books,307.46,USD,False
 187,Научить,Sports,829.75,RUB,False
@@ -245,14 +245,14 @@ product_id,product_name,category,price,currency,is_active
 244,Товар,Electronics,1575.67,RUB,False
 245,Заплакать,Sports,1346.13,EUR,False
 246,Вытаскивать,Electronics,358.49,USD,False
-247,Уточнить   ,Electronics,744.11,EUR,False
+247,Уточнить,Electronics,744.11,EUR,False
 248,Изменение,Books,387.07,USD,False
 249,Пасть,Sports,1934.76,USD,True
 250,О,Home,396.19,RUB,False
 251,Свежий,Sports,345.1,RUB,True
 252,Прелесть,Home,135.39,RUB,True
 253,Ход,Electronics,1762.6,RUB,False
-254,Дьявол   ,Clothing,1362.96,RUB,True
+254,Дьявол,Clothing,1362.96,RUB,True
 255,Снимать,Clothing,1708.45,EUR,True
 256,Вперед,Electronics,1361.95,RUB,True
 257,Затянуться,Home,98.69,USD,False
@@ -268,7 +268,7 @@ product_id,product_name,category,price,currency,is_active
 267,Смеяться,Clothing,593.36,USD,True
 268,Кольцо,Sports,909.56,RUB,True
 269,Очередной,Clothing,682.53,RUB,False
-270,Один   ,Electronics,1177.69,RUB,True
+270,Один,Electronics,1177.69,RUB,True
 271,Заведение,Home,1809.22,EUR,False
 272,Соответствие,Electronics,1450.62,USD,True
 273,Посвятить,Home,626.78,EUR,True
@@ -340,7 +340,7 @@ product_id,product_name,category,price,currency,is_active
 339,Выраженный,Electronics,1785.91,RUB,True
 340,Постоянный,Electronics,784.28,USD,False
 341,Задержать,Books,1535.39,USD,True
-342,Песенка   ,Books,,RUB,True
+342,Песенка,Books,,RUB,True
 343,Экзамен,Books,445.03,RUB,True
 344,Табак,Home,92.8,RUB,True
 345,Тюрьма,Clothing,1251.22,USD,True
@@ -351,7 +351,7 @@ product_id,product_name,category,price,currency,is_active
 350,Возмутиться,Clothing,1918.27,RUB,True
 351,Парень,Home,667.43,RUB,False
 352,Важный,Clothing,,EUR,True
-353,Применяться   ,Electronics,1009.32,RUB,True
+353,Применяться,Electronics,1009.32,RUB,True
 354,Расстегнуть,Sports,621.15,USD,True
 355,Сохранять,Clothing,279.42,USD,True
 356,Спасть,Clothing,479.94,RUB,False
@@ -369,7 +369,7 @@ product_id,product_name,category,price,currency,is_active
 368,Неожиданный,Sports,1708.81,RUB,True
 369,Изба,Home,1107.94,EUR,False
 370,Гулять,Books,753.42,RUB,False
-371,Необычный   ,Sports,395.45,RUB,False
+371,Необычный,Sports,395.45,RUB,False
 372,Функция,Home,985.45,EUR,False
 373,Демократия,Electronics,619.08,USD,False
 374,Сбросить,Home,1864.6,RUB,False
@@ -451,12 +451,12 @@ product_id,product_name,category,price,currency,is_active
 450,Сынок,Clothing,842.27,EUR,True
 451,Плод,Sports,1928.22,USD,False
 452,Упорно,Home,136.59,EUR,True
-453,Кузнец   ,Clothing,1738.37,USD,False
+453,Кузнец,Clothing,1738.37,USD,False
 454,Снимать,Sports,1903.81,RUB,False
 455,Освобождение,Home,1179.71,RUB,False
 456,Крыса,Books,1105.33,EUR,False
 457,Строительство,Sports,365.44,RUB,False
-458,Прелесть   ,Sports,956.34,RUB,True
+458,Прелесть,Sports,956.34,RUB,True
 459,Сохранять,Home,1316.84,USD,False
 460,Ручей,Clothing,1416.47,USD,False
 461,Изображать,Home,1972.56,EUR,True
@@ -472,9 +472,9 @@ product_id,product_name,category,price,currency,is_active
 471,Налоговый,Electronics,583.68,RUB,False
 472,Болото,Sports,438.84,USD,False
 473,Очко,Electronics,1785.53,RUB,False
-474,Рот   ,Books,660.46,EUR,False
+474,Рот,Books,660.46,EUR,False
 475,Деньги,Sports,22.68,RUB,True
-476,Боец   ,Home,824.38,USD,False
+476,Боец,Home,824.38,USD,False
 477,Инвалид,Books,793.74,RUB,False
 478,Дальний,Books,221.85,USD,False
 479,Приличный,Books,,USD,True
@@ -495,7 +495,7 @@ product_id,product_name,category,price,currency,is_active
 494,Бегать,Electronics,1886.28,USD,True
 495,Пол,Home,6.07,EUR,False
 496,Ярко,Clothing,1817.42,EUR,False
-497,Заработать   ,Sports,612.19,USD,False
+497,Заработать,Sports,612.19,USD,False
 498,Сомнительный,Sports,724.33,RUB,False
 499,Казнь,Electronics,480.31,USD,True
 500,Роса,Books,1260.97,USD,False
@@ -543,7 +543,7 @@ product_id,product_name,category,price,currency,is_active
 542,Да,Home,850.54,USD,True
 543,Разнообразный,Clothing,769.45,RUB,True
 544,Беспомощный,Sports,772.33,RUB,True
-545,Вообще   ,Electronics,1407.67,EUR,False
+545,Вообще,Electronics,1407.67,EUR,False
 546,Эпоха,Home,1915.44,EUR,True
 547,Металл,Clothing,592.92,USD,True
 548,Сомнительный,Books,1656.5,EUR,True

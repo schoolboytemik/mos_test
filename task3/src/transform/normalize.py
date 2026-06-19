@@ -8,11 +8,27 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 OUT = DATA / "cleaned"
 
+OUT.mkdir(exist_ok=True)
+
 log = []
 
 
 def save_problem(dataset, row, reason):
     log.append(f"{dataset}: {reason} -> {row}")
+
+
+def clean_text(series):
+    return (
+        series.astype(str)
+        .str.strip()
+        .str.replace(r"\s+", " ", regex=True)
+    )
+
+
+def clean_strings(df):
+    for col in df.select_dtypes(include="object").columns:
+        df[col] = clean_text(df[col])
+    return df
 
 
 # ------------------
@@ -21,10 +37,10 @@ def save_problem(dataset, row, reason):
 
 customers = pd.read_csv(DATA / "customers.csv")
 
+customers = clean_strings(customers)
+
 customers["full_name"] = (
     customers["full_name"]
-    .astype(str)
-    .str.strip()
     .str.title()
 )
 
@@ -52,6 +68,8 @@ for event in root.findall("event"):
 
 events = pd.DataFrame(rows)
 
+events = clean_strings(events)
+
 events.to_csv(
     OUT / "events.csv",
     index=False
@@ -64,6 +82,8 @@ events.to_csv(
 
 with open(DATA / "orders.json", encoding="utf-8") as f:
     orders = pd.DataFrame(json.load(f))
+
+orders = clean_strings(orders)
 
 orders["order_timestamp"] = pd.to_datetime(
     orders["order_timestamp"],
@@ -94,6 +114,8 @@ payments = pd.read_csv(
     sep="^"
 )
 
+payments = clean_strings(payments)
+
 payments["amount"] = pd.to_numeric(
     payments["amount"],
     errors="coerce"
@@ -121,6 +143,8 @@ payments.to_csv(
 products = pd.read_excel(
     DATA / "products.xlsx"
 )
+
+products = clean_strings(products)
 
 products["price"] = (
     products["price"]
